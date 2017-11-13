@@ -1,7 +1,7 @@
 function iterativeLog(arr){
 arr.forEach(function(item, i, arr) {
   console.log('${i}: ${item}');
-  return i+' : '+ item;
+  return i+': '+ item;
 //  alert( i + ": " + item + " (массив:" + arr + ")" );
 });
 
