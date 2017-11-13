@@ -1,11 +1,9 @@
-function iterativeLog(arr){
-arr.forEach(function(item, i, arr) {
-  console.log('${i}: ${item}');
-  return i+': '+ item;
-//  alert( i + ": " + item + " (массив:" + arr + ")" );
-});
-
+function iterativeLog(array) {
+  array.forEach((element, index) => {
+    console.log(`${index}: ${element}`);
+  });
 }
+
 
 function iterate(callback){
 
